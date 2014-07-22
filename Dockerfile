@@ -9,5 +9,4 @@ RUN /usr/bin/sentry --config=/etc/sentry.conf.py upgrade
 
 EXPOSE 9000
 
-CMD ["/usr/bin/sentry --config=/etc/sentry.conf.py start"]
-
+CMD ["/usr/bin/sentry", "--config=/etc/sentry.conf.py", "start"]
